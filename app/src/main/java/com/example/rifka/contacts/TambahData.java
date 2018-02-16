@@ -20,6 +20,8 @@ import java.util.HashMap;
 
 import com.mikepenz.iconics.context.IconicsLayoutInflater2;
 
+import static com.example.rifka.contacts.MainActivity.ma;
+
 public class TambahData extends AppCompatActivity implements View.OnClickListener{
 
     protected Cursor cursor;
@@ -69,7 +71,6 @@ public class TambahData extends AppCompatActivity implements View.OnClickListene
                         egroup.getText().toString() + "')");
 
                 Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-                MainActivity.ma.RefreshList();
                 finish();
             }
         });

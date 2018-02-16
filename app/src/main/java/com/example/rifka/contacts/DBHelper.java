@@ -36,10 +36,10 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         String query_contact, query_group;
-        query_contact = "CREATE TABLE contact( id_contact INTEGER PRIMARY KEY AOUTOINCREMENT, name TEXT, phone TEXT, email TEXT, address TEXT, event TEXT, name_group TEXT)";
-//        query_group = "CREATE TABLE group(id_group INTEGER PRIMARY KEY AOUTOINCREMENT, name TEXT)";
-        db.execSQL("CREATE TABLE contact( id_contact INTEGER PRIMARY KEY AOUTOINCREMENT, name TEXT, phone TEXT, email TEXT, address TEXT, event TEXT, name_group TEXT)");
-//        db.execSQL(query_group);
+        query_contact = "CREATE TABLE contact( id_contact INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, phone TEXT, email TEXT, address TEXT, event TEXT, name_group TEXT)";
+        query_group = "CREATE TABLE group(id_group INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT)";
+        db.execSQL(query_contact);
+        db.execSQL(query_group);
         Log.d(LOGCAT, "Table Created");
     }
 

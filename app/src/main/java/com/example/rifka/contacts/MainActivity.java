@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         tambah_kontak = (TextView)findViewById(R.id.btn_tambah_kontak);
+        listview = (ListView) findViewById(R.id.list_contact);
 
         tambah_kontak.setOnClickListener(this);
     }
