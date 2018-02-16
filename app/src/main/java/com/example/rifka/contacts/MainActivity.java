@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cursor = db.rawQuery("SELECT * FROM contact", null);
         daftar = new String[cursor.getCount()];
         cursor.moveToFirst();
-        for (int cc=0; cc<cursor.getCount(); cc++) {
+        for (int cc = 0; cc < cursor.getCount(); cc++) {
             cursor.moveToPosition(cc);
             daftar[cc]= cursor.getString(1).toString();
         }
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     public void onClick(DialogInterface dialog, int item) {
                         switch (item) {
                             case 0 :
-                                i = new Intent(MainActivity.this, EditData.class);
+                                i = new Intent(getApplicationContext(), EditData.class);
                                 i.putExtra("name", selection);
                                 startActivity(i);
                                 break;
