@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\f29f1df36e54d36b3cf8da1c23483f85bcde46ec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_b218466e5d9b158a8810ae4a4bb45dc80739bc66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\fe8bc316f2cdc298fca40c42816c1efb4df1ffb8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_0a604524b710b0bd0d77167b5fcbfefdc6313740.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\29f9f2d94af268a8f98f5a2280f6f60456d5e81b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c02f0bea377c420e52522f8c3f2a03f3f15e0cc1">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_66ab90be6dfdf98dc832a3fa9afe8918580df162.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\d079221bc1c911d5d2403ef0d450361828f011d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="02f921212ef94489f8bfe9f99dc4e9acc0f50472">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_704e3d76754de694ad4c158060b70387e6058f8c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projectAndroid\Contacts\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4d98a0e8fc174ba9c7db92522a8b4d3ce8b27215">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3380f084545d0d13b5b5fae58c19b34169ef007d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\fb92467a823cd1aeacc71382cf79da2a98790d49\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_6e8cfd3621364668b03de71042b0bb20725f15f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\71823bc9b13d357cae9cd899b63915aec9a97ac4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_ddadeb5a3d9aa372f9756286e12f5e714ebc90ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\be125c4b5aab0e1a76f121c8b659da1b4c28184c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_b3c32583d78ff4a0a3d47a6833014cfd12343010.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\7bf101c6d4f03e4a593b370796a9748b31a5c74a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_6b74e090524fd6c6a65adc6ad3b8bf450836f4fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_85c645faad5b109ce464c88df4060e027fa9320a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\397e9dcc9de4d49b837a3d6bec833ab94de2c1de\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6c9a51f16ed21e72035351f68047046a842e26a7">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_ccb4cfa23ea5ac5bf135447324c116c587218e26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\9df8fe517a6f8d7a6e1e6c54b49a33e3d2070ed8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_886a39d44153991e13d70d7850757c04a7387ccc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\45caac69f6007e4fb9ae3731055408cdbd8393e5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_ed2560583841423071c8e03490dfcdb7464ca8d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\ade55d91ed42b6475054148f2e5d20e511ce7c75\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_ce882bcf9f0473578da41361b9cc47ec016abb42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\d0faa8ef908810c235ed4540ab88785269fd46c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_66821a98365bfc575fd6861c3d1297f9e95cfe29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rifka\.android\build-cache\1fd9a7c4ddda6ec659a8a66d0c62f81bbdc26c6d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\classes_2b5db939d8a390a3fb1b2375ecb0e2e70fb5c1f9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projectAndroid\Contacts\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e9f287ef95366dc4ad3737c7b687cb53b805283f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\projectAndroid\Contacts\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_d23c4391907db85dcc92736ee567a118d68bcf2b.jar" />
+    </item>
+
+</items>
