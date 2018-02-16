@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         listview = (ListView) findViewById(R.id.list_contact);
 
         tambah_kontak.setOnClickListener(this);
+
+        ma = this;
+        dbcenter = new DBHelper(this);
+        RefreshList();
     }
 
     public void RefreshList() {
@@ -49,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             cursor.moveToPosition(cc);
             daftar[cc]= cursor.getString(1).toString();
         }
-        listview = (ListView) findViewById(R.id.list_contact);
+
         listview.setAdapter(new ArrayAdapter(this, android.R.layout.simple_list_item_1, daftar));
         listview.setSelected(true);
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {

@@ -43,12 +43,12 @@ public class TampilData extends AppCompatActivity {
         if (cursor.getCount()>0)
         {
             cursor.moveToPosition(0);
-            tname.setText(cursor.getString(0).toString());
-            tphone.setText(cursor.getString(1).toString());
-            temail.setText(cursor.getString(2).toString());
-            tgroup.setText(cursor.getString(3).toString());
-            taddress.setText(cursor.getString(4).toString());
+            tname.setText(cursor.getString(1).toString());
+            tphone.setText(cursor.getString(2).toString());
+            temail.setText(cursor.getString(3).toString());
+            tgroup.setText(cursor.getString(4).toString());
             tevent.setText(cursor.getString(5).toString());
+            taddress.setText(cursor.getString(6).toString());
         }
     }
 }

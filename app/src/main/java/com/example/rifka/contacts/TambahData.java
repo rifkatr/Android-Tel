@@ -71,6 +71,7 @@ public class TambahData extends AppCompatActivity implements View.OnClickListene
                         egroup.getText().toString() + "')");
 
                 Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
+                MainActivity.ma.RefreshList();
                 finish();
             }
         });
