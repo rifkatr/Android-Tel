@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <!--icon-->
+    <string name="user">{faw-user}</string>
+    <string name="group">{faw-users}</string>
+    <string name="telp">{faw-phone}</string>
+    <string name="email">{faw-envelope}</string>
+    <string name="address">{faw-map-marker}</string>
+    <string name="calendar">{faw-calendar}</string>
+    <string name="search">{faw-search}</string>
+    <string name="add">{faw-user-plus}</string>
+    <string name="delete">{faw-trash-alt}</string>
+    <string name="edit">{faw-edit}</string>
+    <string name="back">{faw-arrow-left}</string>
+    <string name="camera">{faw-camera-retro}</string>
+
+</resources>
