@@ -14,7 +14,8 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center">
+            android:gravity="center"
+            android:background="@drawable/ripple">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -30,6 +31,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
+            android:background="@drawable/ripple"
             android:onClick="bSave">
 
             <TextView
@@ -112,7 +114,8 @@
                         android:background="@drawable/edittext_bottomline"
                         android:hint="Name"
                         android:inputType="text"
-                        android:paddingLeft="9dp" />
+                        android:paddingLeft="9dp"
+                        android:maxLength="20"/>
 
                 </LinearLayout>
 
@@ -309,7 +312,9 @@
                         android:paddingLeft="9dp"
                         android:background="@drawable/edittext_bottomline"
                         android:hint="Event"
-                        android:inputType="date"/>
+                        android:inputType="date"
+                        android:focusable="false"
+                        android:onClick="Calendar_Event2"/>
 
                 </LinearLayout>
 

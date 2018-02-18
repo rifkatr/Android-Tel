@@ -12,17 +12,17 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.4"
+            android:layout_weight="0.2"
             android:layout_marginLeft="5dp"
             android:padding="7dp">
 
-            <TextView
+            <ImageView
+                android:id="@+id/btn_back"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/back"
                 android:textSize="9pt"
-                android:layout_gravity="center"
-                android:gravity="left"/>
+                android:src="@drawable/back"
+                android:layout_gravity="center"/>
 
         </LinearLayout>
 
@@ -38,14 +38,15 @@
                 android:text="Groups"
                 android:layout_gravity="center"
                 android:textSize="10pt"
-                android:textColor="#fff"/>
+                android:textColor="#fff"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.4"
+            android:layout_weight="0.3"
             android:padding="7dp">
 
             <TextView

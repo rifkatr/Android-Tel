@@ -86,7 +86,8 @@
                                         android:gravity="center"
                                         android:textSize="8pt"
                                         android:layout_gravity="center"
-                                        android:text="Name"/>
+                                        android:text="Name"
+                                        android:textColor="@color/madison"/>
 
                                 </LinearLayout>
 
@@ -128,7 +129,8 @@
                                         android:gravity="center"
                                         android:textSize="8pt"
                                         android:layout_gravity="center"
-                                        android:text="Phone"/>
+                                        android:text="Phone"
+                                        android:textColor="@color/madison"/>
 
                                 </LinearLayout>
 
@@ -170,7 +172,8 @@
                                         android:gravity="center"
                                         android:textSize="8pt"
                                         android:layout_gravity="center"
-                                        android:text="Email"/>
+                                        android:text="Email"
+                                        android:textColor="@color/madison"/>
 
                                 </LinearLayout>
 
@@ -211,7 +214,8 @@
                                         android:gravity="center"
                                         android:textSize="8pt"
                                         android:layout_gravity="center"
-                                        android:text="Group"/>
+                                        android:text="Group"
+                                        android:textColor="@color/madison"/>
 
                                 </LinearLayout>
 
@@ -253,7 +257,8 @@
                                         android:gravity="center"
                                         android:textSize="8pt"
                                         android:layout_gravity="center"
-                                        android:text="Address"/>
+                                        android:text="Address"
+                                        android:textColor="@color/madison"/>
 
                                 </LinearLayout>
 
@@ -295,7 +300,8 @@
                                         android:gravity="center"
                                         android:textSize="8pt"
                                         android:layout_gravity="center"
-                                        android:text="Event"/>
+                                        android:text="Event"
+                                        android:textColor="@color/madison"/>
 
                                 </LinearLayout>
 
@@ -325,28 +331,37 @@
             android:layout_height="match_parent"
             android:layout_weight="2.6">
 
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9pt"
+                android:src="@drawable/back"
+                android:layout_gravity="center"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/back"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:text="Contact"
                 android:textSize="9pt"
-                android:gravity="left"
-                android:layout_gravity="center"/>
+                android:textColor="#fff"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="0.6">
 
-            <TextView
+            <ImageView
                 android:id="@+id/tvEdit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/edit"
                 android:textSize="9pt"
-                android:gravity="right"
+                android:src="@drawable/edit"
                 android:layout_gravity="center"/>
 
         </LinearLayout>
@@ -354,15 +369,14 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="0.4">
 
-            <TextView
+            <ImageView
                 android:id="@+id/tvDelete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/delete"
                 android:textSize="9pt"
-                android:gravity="right"
+                android:src="@drawable/delete"
                 android:layout_gravity="center"/>
 
         </LinearLayout>

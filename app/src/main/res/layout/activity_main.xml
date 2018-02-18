@@ -1,42 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.rifka.contacts.MainActivity">
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="15dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="5dp"
-            android:gravity="right">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:background="@drawable/bg_tambah_contact">
-
-                <TextView
-                    android:id="@+id/btn_tambah_kontak"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:gravity="center"
-                    android:text="@string/add"
-                    android:textSize="11pt" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </FrameLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -86,13 +55,14 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:padding="13dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_margin="12dp">
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -124,7 +94,7 @@
                     android:id="@+id/list_contact"
                     android:layout_marginTop="12dp"
                     android:layout_width="match_parent"
-                    android:layout_height="500dp">
+                    android:layout_height="wrap_content">
 
                 </ListView>
 
@@ -134,4 +104,15 @@
 
     </LinearLayout>
 
-</RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/tambahdata"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="23dp"
+        android:src="@drawable/add_user1"
+        android:backgroundTint="@color/colorPrimary"
+        app:borderWidth="0dp"
+        android:scaleType="center"/>
+
+</android.support.design.widget.CoordinatorLayout>
